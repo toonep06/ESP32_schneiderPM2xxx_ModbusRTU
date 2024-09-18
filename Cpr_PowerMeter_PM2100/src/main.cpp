@@ -6,20 +6,6 @@
 // Create an instance of ModbusMaster
 ModbusMaster node;
 
-// MQTT Broker details RD
-/* const char *mqtt_server = "www.blinkemerge.app";    // Replace with your MQTT broker address
-const char *mqtt_user = "g53ilseisppu9mnxdvr0";     // MQTT username
-const char *mqtt_password = "zewo0mnx2m5xhgqjdap8"; // MQTT password
-const char *mqtt_topic = "v1/devices/me/telemetry";
-const char *mqtt_client_id = "4bykt4slxjkhx1eujyo5"; */   
-//Attempting MQTT connection...[8712399][E][WiFiGeneric.cpp:1583] hostByName(): DNS Failed for www.blinkemerge.app
-
-// MQTT Broker details โอกาส
-/* const char *mqtt_server = "www.blinkemerge.app";    // Replace with your MQTT broker address
-const char *mqtt_user = "8ukweaslxekte1cha76y";     // MQTT username
-const char *mqtt_password = "efbrh2uzgx1zg8u86xfo"; // MQTT password
-const char *mqtt_topic = "v1/devices/me/telemetry";
-const char *mqtt_client_id = "un7tcdihnhq3qpjosod4";  */
 
 // Create an instance of the WiFi and MQTT clients
 WiFiClient espClient;
